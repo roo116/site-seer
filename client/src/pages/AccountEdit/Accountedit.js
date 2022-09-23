@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+
 import { Link, useNavigate } from "react-router-dom";
 import { useMutation, useQuery } from "@apollo/client";
 import { EDIT_USER } from "../../utils/mutations";
@@ -135,6 +136,7 @@ const EditProfile = () => {
 			</div>
 		</div>
 	);
+
 };
 
 export default EditProfile;
